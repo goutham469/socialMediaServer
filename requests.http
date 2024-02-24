@@ -1,0 +1,34 @@
+GET http://localhost:4000
+###
+GET http://localhost:4000/help
+###
+POST http://localhost:4000/users/createUser
+Content-Type: application/json
+
+{
+    "registrationDetails": [
+        {
+            "name": "ve6ubtyj",
+            "email": "gouth@gmail.com",
+            "phoneNumber": "9398141936",
+            "dateOfBirth": "2024-02-08"
+        },
+        {
+            "country": "the",
+            "state": "br",
+            "city": "cth"
+        },
+        [
+            "Technology",
+            "education",
+            "movies"
+        ],
+        "123"
+    ]
+}
+###
+GET http://localhost:4000/count/modifyCount
+###
+GET http://localhost:4000/users/getUsers/?name=gouthamreddy
+###
+GET http://localhost:4000/users/getUsers
